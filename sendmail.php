@@ -12,7 +12,7 @@ $mail = new PHPMailer(true);
 try {
     // 🔐 SMTP Settings (Zoho)
     $mail->isSMTP();
-    $mail->Host       = 'smtp.zoho.com';
+    $mail->Host       = 'smtp.zoho.in';
     $mail->SMTPAuth   = true;
     $mail->Username   = 'admissions@kamilaviation.com'; // Zoho email
     $mail->Password   = 'cU9bF9r4LWeu'; // or App Password
